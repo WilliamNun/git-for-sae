@@ -437,7 +437,9 @@ $(function() {
 			"dtype" : "jsonp",
 			"key" : "1d0dab79c236a693f5a43bc0650dbe08"
 		}, function(data) {
+			console.log(data);
 			var errorcode = data.error_code;
+			console.log(errorcode);
 			if( errorcode ===0){
 				//数据正常返回
 				if(place==="北京"){
