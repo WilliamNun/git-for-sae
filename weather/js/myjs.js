@@ -14,12 +14,12 @@ var theWeather={
 	week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()],
 	future:[
 		{tem:"28",weather:"小雨",weatherId:"03",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
-		{tem:"28",weather:"晴",weatherId:"02",month:curr_time.getMonth()+2,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
-		{tem:"19",weather:"小雨",weatherId:"03",month:curr_time.getMonth()+2,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
-		{tem:"29",weather:"小雪",weatherId:"14",month:curr_time.getMonth()+2,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
-		{tem:"22",weather:"暴风",weatherId:"01",month:curr_time.getMonth()+2,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
-		{tem:"31",weather:"暴雨",weatherId:"04",month:curr_time.getMonth()+2,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
-		{tem:"32",weather:"暴风",weatherId:"01",month:curr_time.getMonth()+2,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]}
+		{tem:"28",weather:"晴",weatherId:"02",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
+		{tem:"19",weather:"小雨",weatherId:"03",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
+		{tem:"29",weather:"小雪",weatherId:"14",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
+		{tem:"22",weather:"暴风",weatherId:"01",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
+		{tem:"31",weather:"暴雨",weatherId:"04",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]},
+		{tem:"32",weather:"暴风",weatherId:"01",month:curr_time.getMonth()+1,day:theday++%30,week:new Array("Sunday", "Monday", "Thusday", "Wednesday", "Thursday", "Friday", "Saturday")[curr_time.getDay()]}
 	]
 };
 $('body').height($('.screen').height());
